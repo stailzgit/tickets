@@ -50,7 +50,9 @@ function App() {
         <div className="app">
           <Filters {...propsForFilters} />
 
-          {!filteredTickets.length && <div className="no-tickets">Билеты не найдены</div>}
+          {!filteredTickets.length && (
+            <div className="no-tickets">Билеты не найдены </div>
+          )}
 
           <div className="tickets">
             {filteredTickets.map((ticket, index) => (

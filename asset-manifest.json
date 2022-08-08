@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tickets/static/css/main.c94eeb8e.css",
+    "main.css": "/tickets/static/css/main.2a0b2c93.css",
     "main.js": "/tickets/static/js/main.189ac1dc.js",
     "static/media/turkish-airlines.png": "/tickets/static/media/turkish-airlines.3bbc574090705a73c3ae.png",
     "static/media/air-arrow.png": "/tickets/static/media/air-arrow.afe59fb9186461b50391.png",
     "static/media/airplane.svg": "/tickets/static/media/airplane.4e1b032beb6ebe184b70074b25b96d8e.svg",
     "index.html": "/tickets/index.html",
-    "main.c94eeb8e.css.map": "/tickets/static/css/main.c94eeb8e.css.map",
+    "main.2a0b2c93.css.map": "/tickets/static/css/main.2a0b2c93.css.map",
     "main.189ac1dc.js.map": "/tickets/static/js/main.189ac1dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.c94eeb8e.css",
+    "static/css/main.2a0b2c93.css",
     "static/js/main.189ac1dc.js"
   ]
 }

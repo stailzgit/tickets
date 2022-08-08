@@ -1,0 +1,41 @@
+.custom__checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin-right: 10px;
+}
+
+.custom__checkbox+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.custom__checkbox+label::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.custom__checkbox:checked+label::before {
+  border-color: var(--primary-middle);
+  background-color: transparent;
+  background-image: url(../../assets/check-mark-icon.png);
+}
+
+.custom__checkbox:not(:disabled):not(:checked)+label:hover::before {
+  border-color: var(--primary-middle);
+}
+
+.custom__checkbox:disabled+label::before {
+  background-color: #e9ecef;
+}

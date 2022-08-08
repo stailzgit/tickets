@@ -1,0 +1,60 @@
+.currencies {
+  padding: 15px;
+}
+
+.currencies__title {
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+.currencies__list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  border-radius: var(--radius);
+  width: fit-content;
+}
+
+.currency {
+  border: 1px solid var(--primary);
+  background: transparent;
+  color: var(--primary-middle);
+  padding: 7px 10px;
+  border-collapse: separate;
+  user-select: none;
+  transition: var(--transition);
+}
+
+.currency:hover {
+  background: var(--primary-light);
+  border-color: var(--primary-middle);
+
+}
+
+.currency--active {
+  background: var(--primary);
+  color: white;
+}
+
+.currency--active:hover {
+  background: var(--primary);
+  color: white;
+  border: 1px solid var(--primary);
+
+}
+
+.currency:nth-child(1) {
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+  border-right: none;
+  margin-right: -1px;
+}
+
+.currency:last-child {
+  border-left: none;
+
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}

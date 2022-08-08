@@ -1,0 +1,49 @@
+.transfers__title {
+  padding: 0px 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.transfers__list {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.transfer__item {
+  font-weight: 600;
+  padding: 8px 15px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  row-gap: 10px;
+  transition: var(--transition);
+}
+
+
+
+.transfer__item.transfer__item--disabled,
+.transfer__item.transfer__item--disabled * {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.transfer__item:hover {
+  background-color: var(--primary-light);
+}
+
+.transfer__item:hover .transfer__btn {
+  visibility: visible;
+}
+
+.transfer__btn {
+  visibility: hidden;
+  background-color: transparent;
+  color: var(--primary-middle);
+  font-weight: 700;
+}
+
+.transfer__btn:hover {
+  color: var(--primary);
+  transform: scale(1.05);
+}

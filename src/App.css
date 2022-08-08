@@ -47,13 +47,6 @@
   padding-bottom: 100px;
 }
 
-.filters__open-btn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
-
 .filters__btn {
   display: none;
 

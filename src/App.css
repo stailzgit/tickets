@@ -98,3 +98,8 @@
     gap: 20px;
   }
 }
+
+.no-tickets {
+  width: 100%;
+  text-align: center;
+}

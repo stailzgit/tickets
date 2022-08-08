@@ -54,22 +54,13 @@
     transition: var(--transition);
   }
 
-  .filters {
-    position: fixed;
-    top: auto;
-    bottom: 130px;
-    left: 50%;
-    transform: translateX(-50%) scale(1.1);
-    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  }
-
   .filters.filters--open {
     position: fixed;
     top: auto;
     bottom: 130px;
     left: 50%;
     transform: translateX(-50%) scale(1.1);
-    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25), 0 0 12px rgba(0, 0, 0, 0.22);
   }
 
   .filters.filters--close {

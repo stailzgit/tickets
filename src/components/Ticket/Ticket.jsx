@@ -27,10 +27,10 @@ const Ticket = ({ ticket, currency }) => {
           <img src={TURKISH_AIRPLANE} alt="" />
         </div>
 
-        <button className="ticket__buy-btn">
+        <div className="ticket__buy-btn">
           <p>Купить</p>
           <p>За {priceByCource(price, currency)}</p>
-        </button>
+        </div>
       </div>
 
       <div className="ticket__info">

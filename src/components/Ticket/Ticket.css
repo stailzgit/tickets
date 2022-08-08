@@ -35,8 +35,6 @@
 }
 
 .ticket__buy-btn:hover {
-  margin-top: 20px;
-  padding: 5px;
   border-radius: var(--radius);
   background-color: white;
   color: rgb(241, 138, 41);
@@ -130,16 +128,13 @@
     grid-template-rows: 1fr 60px;
   }
 
-  .ticket__buy {
-    order: 2;
-  }
-
   .ticket__info {
     padding: 10px 15px 5px 15px;
     order: 1;
   }
 
   .ticket__buy {
+    order: 2;
     padding: 5px 15px 5px 15px;
     border-right: 1px solid rgba(87, 83, 82, 0.2);
     display: flex;

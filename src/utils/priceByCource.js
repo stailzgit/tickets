@@ -8,7 +8,11 @@ export const priceByCource = (price, currency) => {
   const courseTranslation = (price) => {
     const { rate, symbol } = ratesByRUB[currency];
     const priceByCource = (price * rate).toFixed(0);
-    return priceByCource + symbol;
+    return numberWithSpaces(priceByCource) + symbol;
+  };
+
+  const numberWithSpaces = (num) => {
+    return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
   };
 
   return courseTranslation(price);
